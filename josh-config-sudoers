@@ -1,0 +1,18 @@
+# Configure group sudo as root-equivalent.
+%sudo ALL=(ALL:ALL) NOPASSWD: ALL
+
+# Whitelist various environment variables accordingly.
+Defaults:%sudo env_keep += "HOME"
+Defaults:%sudo env_keep += "EDITOR"
+Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"
+Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
+Defaults:%sudo env_keep += "GPG_AGENT_INFO"
+Defaults:%sudo env_keep += "GREP_COLOR GREP_OPTIONS"
+Defaults:%sudo env_keep += "GZIP"
+Defaults:%sudo env_keep += "LESS LESSCLOSE LESSHISTFILE LESSOPEN"
+Defaults:%sudo env_keep += "PWD"
+Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"
+Defaults:%sudo env_keep += "http_proxy https_proxy ftp_proxy all_proxy no_proxy"
+
+# Avoid overriding $PATH
+Defaults:%sudo !secure_path

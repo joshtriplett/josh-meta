@@ -1,0 +1,4 @@
+[Admin]
+Identity=unix-group:sudo
+Action=*
+ResultActive=yes

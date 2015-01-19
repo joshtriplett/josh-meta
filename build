@@ -1,0 +1,33 @@
+#!/bin/sh
+set -e
+
+die() {
+    echo "$@"
+    exit 1
+}
+
+cd $(dirname $0)
+test -d .git || die Could not find git repository
+test -d debian || die Could not find debian directory
+
+pkg="$(basename $(pwd))"
+author="$(git log -1 --pretty='%aN <%aE>')"
+date="$(git log -1 --pretty='%aD')"
+year="$(git log -1 --date=short --pretty='%ad' | cut -d- -f1)"
+version="$(git rev-list HEAD --count)"
+
+target=target
+rm -rf "$target"
+mkdir "$target"
+git archive --prefix="$pkg-$version/" HEAD | tar -x -C "$target"
+cd "$target/$pkg-$version"
+
+cat > debian/changelog <<EOF
+$pkg ($version) unstable; urgency=low
+
+  * See git repository for changelog.
+
+ -- $author  $date
+EOF
+{ echo "Copyright $year $author" ; cat debian/copyright.trailer ; } > debian/copyright
+debuild -b

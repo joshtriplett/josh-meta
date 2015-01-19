@@ -1,0 +1,2 @@
+josh.list /etc/apt/sources.list.d/
+josh.gpg /etc/apt/trusted.gpg.d/
