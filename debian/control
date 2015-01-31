@@ -26,7 +26,6 @@ Description: Configure GRUB to disable graphics
 
 Package: josh-config-path
 Architecture: all
-Depends: base-files (>= 5.3)
 Description: Configure the default $PATH to include sbin directories
  This package configures the default $PATH to include sbin directories.
 
