@@ -284,6 +284,7 @@ Depends:
  notification-daemon,
  libreoffice,
   libreoffice-gnome,
+ pdf-presenter-console,
  pidgin,
   pidgin-blinklight,
   pidgin-encryption,
