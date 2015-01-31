@@ -290,6 +290,7 @@ Depends:
  pidgin,
   pidgin-blinklight,
   pidgin-encryption,
+ pulseaudio-module-bluetooth,
  quodlibet,
   quodlibet-plugins,
  transmission-gtk,
