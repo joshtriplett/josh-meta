@@ -266,7 +266,7 @@ Depends:
  gitk,
  gparted,
  gsfonts-x11,
- gnome (>= 1:3.0+1) | gnome-desktop-environment (<< 1:3.0+1),
+ gnome,
  gtk2-engines-pixbuf,
  iceweasel,
   xul-ext-adblock-plus,
