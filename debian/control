@@ -267,6 +267,7 @@ Depends:
  gparted,
  gsfonts-x11,
  gnome,
+  dnsmasq-base,
  gtk2-engines-pixbuf,
  iceweasel,
   xul-ext-adblock-plus,
@@ -317,14 +318,6 @@ Depends:
  perlmagick
 Description: ikiwiki metapackage
  Depends on ikiwiki and supporting packages.
-
-Package: josh-nm
-Architecture: all
-Depends:
- network-manager-gnome,
- dnsmasq-base
-Description: NetworkManager metapackage
- Depends on NetworkManager and supporting packages.
 
 Package: josh-ssh-server
 Architecture: all
