@@ -252,6 +252,7 @@ Architecture: all
 Depends:
  alsa-utils,
  aspell-en,
+ audacity,
  cups,
   cups-bsd,
   cups-client,
