@@ -344,6 +344,7 @@ Depends:
  iptables,
  iw,
  linux-image-686-pae | linux-image-amd64,
+  firmware-linux-free,
  logrotate,
  net-tools,
  ntp,
