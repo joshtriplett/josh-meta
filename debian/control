@@ -334,6 +334,7 @@ Architecture: all
 Depends:
  anacron,
  cron,
+ cryptsetup,
  grub-pc,
  ifupdown | network-manager,
   isc-dhcp-client | network-manager,
