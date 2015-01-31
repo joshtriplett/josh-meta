@@ -162,6 +162,7 @@ Depends:
  optipng,
  p7zip,
  poppler-utils,
+ pwgen,
  reportbug,
  rlfe,
  sshfs,
