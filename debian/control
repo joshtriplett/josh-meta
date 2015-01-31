@@ -270,6 +270,7 @@ Depends:
  gsfonts-x11,
  gnome,
   dnsmasq-base,
+  network-manager-openconnect-gnome,
  gtk2-engines-pixbuf,
  iceweasel,
   xul-ext-adblock-plus,
