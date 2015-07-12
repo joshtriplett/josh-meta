@@ -160,7 +160,6 @@ Depends:
  netpbm,
  nmap,
  optipng,
- p7zip,
  poppler-utils,
  pwgen,
  reportbug,
@@ -173,7 +172,6 @@ Depends:
  unzip,
  vim-scripts,
  wamerican-huge,
- wakeonlan,
  whois,
  youtube-dl,
  zip
@@ -300,7 +298,6 @@ Depends:
  xorg,
  xsane,
  xsel,
- xserver-xephyr,
  xvfb
 Description: GUI metapackage
  Depends on GUI packages
