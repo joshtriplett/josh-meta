@@ -363,13 +363,13 @@ Description: System metapackage
 Package: josh-tex
 Architecture: all
 Depends:
- latex-beamer,
- pgf,
  texlive,
  texlive-bibtex-extra,
  texlive-generic-recommended,
  texlive-latex-extra,
+ texlive-latex-recommended (>= 2013.20140311) | latex-beamer,
  texlive-math-extra,
+ texlive-pictures (>= 2013.20140311) | pgf,
  texlive-pstricks,
  texlive-publishers,
  texlive-science
