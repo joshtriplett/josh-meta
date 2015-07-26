@@ -279,7 +279,7 @@ Depends:
  libpam-gnome-keyring,
  menu,
  mesa-utils,
- mplayer,
+ mpv,
  myspell-en-us,
  notification-daemon,
  libreoffice,
