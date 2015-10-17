@@ -149,7 +149,6 @@ Depends:
  gnuplot,
  icoutils,
  info,
- kpartx,
  qemu-kvm | qemu,
  qemu-utils,
  libjpeg-progs,
