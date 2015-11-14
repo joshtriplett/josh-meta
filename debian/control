@@ -31,6 +31,14 @@ Description: Configure systemd-logind to not suspend on lid close
  This package configures systemd-logind to lock the screen on lid close, rather
  than suspending.
 
+Package: josh-config-nm
+Architecture: all
+Depends: network-manager (>> 1.0)
+Conflicts: ifupdown
+Description: Configure NetworkManager
+ This package configures NetworkManager to use the faster internal DHCP client,
+ and to disable the ifupdown plugin.
+
 Package: josh-config-path
 Architecture: all
 Description: Configure the default $PATH to include sbin directories
