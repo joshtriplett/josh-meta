@@ -311,12 +311,10 @@ Depends:
  libcgi-formbuilder-perl,
  libcgi-session-perl,
  libfile-mimeinfo-perl,
- liblocale-gettext-perl,
+ libimage-magick-perl,
  libtext-csv-perl,
  libtimedate-perl,
- libxml-feed-perl,
- libtext-markdown-perl,
- perlmagick
+ libxml-feed-perl
 Description: ikiwiki metapackage
  Depends on ikiwiki and supporting packages.
 
