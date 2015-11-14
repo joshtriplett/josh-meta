@@ -24,6 +24,13 @@ Description: Configure GRUB to disable graphics
  This package configures the GRUB bootloader to use text mode rather than
  graphics mode.
 
+Package: josh-config-logind
+Architecture: all
+Depends: systemd (>> 218)
+Description: Configure systemd-logind to not suspend on lid close
+ This package configures systemd-logind to lock the screen on lid close, rather
+ than suspending.
+
 Package: josh-config-path
 Architecture: all
 Description: Configure the default $PATH to include sbin directories
