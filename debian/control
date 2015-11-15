@@ -202,8 +202,6 @@ Architecture: all
 Depends:
  josh-dev,
  bison,
- cvs,
- darcs,
  debian-policy,
  flex,
  g++-multilib,
