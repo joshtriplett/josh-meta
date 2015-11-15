@@ -143,7 +143,8 @@ Depends:
  patch,
  patchutils,
  strace,
- valgrind
+ valgrind,
+ vim-fugitive
 Description: Development metapackage
  Depends on development packages
 
