@@ -152,6 +152,7 @@ Package: josh-full
 Architecture: all
 Depends:
  josh-core,
+ acpica-tools,
  dctrl-tools,
  debian-goodies,
  debootstrap,
@@ -163,12 +164,14 @@ Depends:
  gnuplot,
  graphviz,
  groff,
+ html2text,
  icoutils,
  info,
  libjpeg-progs,
  lm-sensors,
  man-db,
  manpages,
+ mtr-tiny,
  mutt,
  netcat-openbsd,
  netpbm,
