@@ -311,8 +311,7 @@ Depends:
  xdg-utils,
  xorg,
  xsane,
- xsel,
- xvfb
+ xsel
 Description: GUI metapackage
  Depends on GUI packages
 
