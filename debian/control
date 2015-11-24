@@ -358,7 +358,7 @@ Depends:
   firmware-linux-free,
  logrotate,
  net-tools,
- ntp,
+ systemd (>= 219-1) | ntp,
  pciutils,
  powertop,
  rsyslog,
