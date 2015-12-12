@@ -346,7 +346,7 @@ Depends:
  anacron,
  cron,
  cryptsetup,
- grub-pc,
+ grub-pc | grub-efi-amd64,
  ifupdown | network-manager,
   isc-dhcp-client | network-manager,
  initramfs-tools,
