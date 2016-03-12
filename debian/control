@@ -289,7 +289,7 @@ Depends:
  gsfonts-x11,
  gtk2-engines-pixbuf,
  hunspell-en-us,
- iceweasel,
+ firefox | iceweasel,
   xul-ext-adblock-plus,
   xul-ext-itsalltext,
  inkscape,
