@@ -12,6 +12,13 @@ Description: Josh Triplett's Debian package repository
  This package contains the APT source and archive keyring for Josh Triplett's
  Debian package repository.
 
+Package: josh-config-apt
+Architecture: all
+Description: Configure apt to not install Recommends
+ This package installs configuration for apt to not install Recommends by
+ default, and to not keep automatically installed packages installed based on
+ Recommends or Suggests.
+
 Package: josh-config-beepless
 Architecture: all
 Description: Make your computer stop beeping
