@@ -227,16 +227,9 @@ Package: josh-games
 Architecture: all
 Depends:
  angband,
- armagetronad,
  atanks,
- blobandconquer,
- blobwars,
  bsdgames,
- celestia-gnome,
  crawl,
- freedroid,
- fretsonfire,
- frotz,
  gnome-games,
  golly,
  hedgewars,
@@ -244,13 +237,8 @@ Depends:
  kobodeluxe,
  komi,
  nethack-console,
- neverball,
- neverputt,
- overgod,
  penguin-command,
  pioneers,
- powermanga,
- qtads,
  rrootage,
  sgt-puzzles,
  singularity,
@@ -259,11 +247,9 @@ Depends:
  stellarium,
  supertransball2,
  supertux,
- toppler,
  torus-trooper,
  trackballs,
   trackballs-music,
- whichwayisup,
  xaos
 Description: Games metapackage
  Depends on an interesting selection of games
