@@ -31,6 +31,12 @@ Description: Configure GRUB to disable graphics
  This package configures the GRUB bootloader to use text mode rather than
  graphics mode.
 
+Package: josh-config-journal
+Architecture: all
+Depends: systemd (>> 218)
+Description: Configure persistent systemd journal
+ This package configures the systemd journal as persistent.
+
 Package: josh-config-logind
 Architecture: all
 Depends: systemd (>> 218)
@@ -347,6 +353,7 @@ Depends:
  iproute2,
  iptables,
  iw,
+ josh-config-journal | rsyslog,
  libpam-systemd,
  linux-image-686-pae | linux-image-amd64,
   firmware-linux-free,
@@ -355,7 +362,6 @@ Depends:
  systemd (>= 219-1) | ntp,
  pciutils,
  powertop,
- rsyslog,
  udev,
  usbutils,
  wireless-tools
