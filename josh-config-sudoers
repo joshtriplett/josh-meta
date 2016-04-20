@@ -3,6 +3,8 @@
 
 # Whitelist various environment variables accordingly.
 Defaults:%sudo env_keep += "HOME"
+Defaults:%sudo env_keep += "APT_LISTCHANGES_FRONTEND"
+Defaults:%sudo env_keep += "BROWSER"
 Defaults:%sudo env_keep += "EDITOR"
 Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"
 Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
