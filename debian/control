@@ -376,6 +376,7 @@ Depends:
  texlive-generic-recommended,
  texlive-latex-extra,
  texlive-latex-recommended (>= 2013.20140311),
+ texlive-latex-recommended-doc,
  texlive-math-extra,
  texlive-pictures (>= 2013.20140311),
  texlive-pstricks,
