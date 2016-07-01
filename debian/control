@@ -300,6 +300,7 @@ Depends:
  pulseaudio-module-bluetooth,
  quodlibet,
   quodlibet-plugins,
+   python-dbus,
  transmission-gtk,
  xdg-utils,
  xorg,
