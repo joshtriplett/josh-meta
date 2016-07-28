@@ -298,6 +298,7 @@ Depends:
   pidgin-blinklight,
   pidgin-encryption,
  pulseaudio-module-bluetooth,
+ pulseaudio-module-udev | pulseaudio (<< 8.0-3),
  quodlibet,
   quodlibet-plugins,
    python-dbus,
