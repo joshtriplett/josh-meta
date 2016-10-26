@@ -291,6 +291,7 @@ Depends:
  libpam-gnome-keyring,
  libreoffice,
   libreoffice-gnome,
+ libsane-hpaio,
  mesa-utils,
  mpv,
  pdf-presenter-console,
@@ -305,7 +306,6 @@ Depends:
  transmission-gtk,
  xdg-utils,
  xorg,
- xsane,
  xsel
 Description: GUI metapackage
  Depends on GUI packages
