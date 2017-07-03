@@ -371,10 +371,10 @@ Depends:
  texlive-bibtex-extra,
  texlive-generic-recommended,
  texlive-latex-extra,
- texlive-latex-recommended (>= 2013.20140311),
+ texlive-latex-recommended,
  texlive-latex-recommended-doc,
  texlive-math-extra,
- texlive-pictures (>= 2013.20140311),
+ texlive-pictures,
  texlive-pstricks,
  texlive-publishers,
  texlive-science
