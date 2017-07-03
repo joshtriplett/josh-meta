@@ -375,6 +375,7 @@ Depends:
  texlive-latex-recommended-doc,
  texlive-math-extra,
  texlive-pictures,
+ texlive-pictures-doc,
  texlive-pstricks,
  texlive-publishers,
  texlive-science
