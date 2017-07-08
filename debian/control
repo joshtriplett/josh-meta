@@ -373,11 +373,11 @@ Depends:
  texlive-latex-extra,
  texlive-latex-recommended,
  texlive-latex-recommended-doc,
- texlive-math-extra,
  texlive-pictures,
  texlive-pictures-doc,
  texlive-pstricks,
  texlive-publishers,
- texlive-science
+ texlive-science,
+ texlive-science (>= 2017.20170629-1) | texlive-math-extra
 Description: TeX metapackage
  Depends on TeX packages
