@@ -215,6 +215,7 @@ Architecture: all
 Depends:
  josh-dev,
  bison,
+ cargo,
  debian-policy,
  flex,
  g++-multilib,
@@ -223,6 +224,8 @@ Depends:
  git-svn,
  hlint,
  python,
+ rustc,
+ rust-gdb,
  xsltproc,
  zlib1g-dev
 Description: Full development metapackage
