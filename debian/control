@@ -223,7 +223,6 @@ Depends:
  git-svn,
  hlint,
  python,
- subversion,
  xsltproc,
  zlib1g-dev
 Description: Full development metapackage
