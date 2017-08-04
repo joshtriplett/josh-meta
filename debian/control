@@ -251,7 +251,6 @@ Depends:
  supertux,
  torus-trooper,
  trackballs,
-  trackballs-music,
  xaos
 Description: Games metapackage
  Depends on an interesting selection of games
