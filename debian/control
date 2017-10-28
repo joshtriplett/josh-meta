@@ -1,6 +1,6 @@
 Source: josh-meta
 Section: metapackages
-Priority: extra
+Priority: optional
 Maintainer: Josh Triplett <josh@joshtriplett.org>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.6
