@@ -296,8 +296,6 @@ Depends:
  gtk2-engines-pixbuf,
  hunspell-en-us,
  firefox | iceweasel,
-  xul-ext-adblock-plus,
-  xul-ext-itsalltext,
  inkscape,
  libasound2-plugins,
  libgl1-mesa-dri,
