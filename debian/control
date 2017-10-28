@@ -220,6 +220,7 @@ Architecture: all
 Depends:
  josh-dev,
  bison,
+ cabal-install,
  cargo,
  cmake,
  debian-policy,
