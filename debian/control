@@ -219,6 +219,7 @@ Package: josh-full-dev
 Architecture: all
 Depends:
  josh-dev,
+ autogen,
  bison,
  cabal-install,
  cargo,
