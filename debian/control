@@ -229,6 +229,7 @@ Depends:
  g++-multilib,
  gcc-multilib,
  ghc,
+ git-hub,
  git-svn,
  hlint,
  ninja-build,
