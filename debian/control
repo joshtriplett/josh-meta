@@ -282,6 +282,7 @@ Depends:
   openprinting-ppds,
  emacs,
   auctex,
+  elpa-tabbar | emacs-goodies-el (<< 39),
   emacs-goodies-el,
  fonts-dejavu | ttf-dejavu,
  fonts-liberation | ttf-liberation,
