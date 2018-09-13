@@ -300,6 +300,7 @@ Depends:
  gtk2-engines-pixbuf,
  hunspell-en-us,
  firefox | iceweasel,
+ fonts-noto-color-emoji,
  inkscape,
  libasound2-plugins,
  libgl1-mesa-dri,
