@@ -168,6 +168,7 @@ Architecture: all
 Depends:
  josh-core,
  acpica-tools,
+ asciinema,
  dctrl-tools,
  debian-goodies,
  debootstrap,
