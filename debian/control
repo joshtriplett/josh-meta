@@ -46,11 +46,13 @@ Description: Configure systemd-logind to not suspend on lid close
 
 Package: josh-config-nm
 Architecture: all
-Depends: network-manager (>> 1.0), network-manager-config-connectivity-debian | network-manager (<< 1.8.0-3)
+Depends:
+ mobile-broadband-provider-info,
+ modemmanager,
+ network-manager
 Conflicts: ifupdown
 Description: Configure NetworkManager
- This package configures NetworkManager to use the faster internal DHCP client,
- and to disable the ifupdown plugin.
+ This package configures NetworkManager to disable the ifupdown plugin.
 
 Package: josh-config-path
 Architecture: all
