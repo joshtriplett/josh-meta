@@ -234,6 +234,7 @@ Depends:
  ghc,
  git-hub,
  git-svn,
+ libtool-bin,
  ninja-build,
  pkg-config,
  python,
