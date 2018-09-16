@@ -3,6 +3,7 @@ Section: metapackages
 Priority: optional
 Maintainer: Josh Triplett <josh@joshtriplett.org>
 Build-Depends: debhelper-compat (= 11)
+Rules-Requires-Root: no
 Standards-Version: 4.2.1
 
 Package: josh-apt-source
