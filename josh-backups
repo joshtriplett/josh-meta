@@ -1,0 +1,49 @@
+#!/bin/sh
+set -e
+
+if [ "$(id -u)" -ne 0 ]; then
+    echo Must run as root. 1>&2
+    exit 1
+fi
+
+conf="/etc/josh-backups.conf"
+if ! [ -r "$conf" ]; then
+    echo "Configure AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY in $conf" 1>&2
+    exit 1
+fi
+. "$conf"
+export AWS_ACCESS_KEY_ID
+export AWS_SECRET_ACCESS_KEY
+
+host=$(hostname)
+if [ -z "$host" ]; then
+    echo Could not determine local hostname. 1>&2
+    exit 1
+fi
+target=s3+http://josh-backup-duplicity-${host}
+
+archive_dir=/var/cache/josh-backups
+mkdir -p "$archive_dir"
+rm -f "$archive_dir/backup/lockfile.lock"
+
+do_duplicity() {
+    duplicity \
+        --archive-dir="$archive_dir" \
+        --name=backup \
+        --s3-use-new-style \
+        --s3-use-rrs \
+        --volsize=100 \
+        --full-if-older-than=3M \
+        --asynchronous-upload \
+        --gpg-options='--homedir=/nonexistent --no-options --trust-model=always --no-default-keyring --keyring=/usr/share/keyrings/josh-backups.gpg --pinentry-mode=error' \
+        --encrypt-key=758E5042E3974BA33A9C1E670ED9A3DF8AFF873D \
+        --encrypt-key=337BB4911A6F2CFFDBF49F7690098C0343B115A7 \
+        --exclude-if-present=CACHEDIR.TAG \
+        --exclude-other-filesystems \
+        --exclude='/home/*/.cache' \
+        --exclude='/home/*/Downloads' \
+        "$@"
+}
+
+do_duplicity "/home" "$target"
+do_duplicity --force remove-all-but-n-full 2 "$target"

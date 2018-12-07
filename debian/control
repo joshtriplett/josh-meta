@@ -13,6 +13,13 @@ Description: Josh Triplett's Debian package repository
  This package contains the APT source and archive keyring for Josh Triplett's
  Debian package repository.
 
+Package: josh-backups
+Architecture: all
+Depends: duplicity, python-boto
+Description: Configure backups to AWS
+ This package configures backups of /home to AWS. After installing, create
+ /etc/josh-backups.conf and write the AWS secrets to it.
+
 Package: josh-config-apt
 Architecture: all
 Description: Configure apt to not install Recommends
