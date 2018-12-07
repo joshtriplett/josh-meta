@@ -372,7 +372,7 @@ Depends:
  iproute2,
  iptables,
  iw,
- josh-config-journal | rsyslog,
+ josh-config-journal,
  libpam-systemd,
  linux-image-686-pae | linux-image-amd64,
   firmware-linux-free,
