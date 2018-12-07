@@ -353,7 +353,6 @@ Description: SSH server metapackage
 Package: josh-sys
 Architecture: all
 Depends:
- anacron,
  cron,
  cryptsetup,
  grub-pc | grub-efi-amd64,
