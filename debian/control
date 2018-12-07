@@ -370,7 +370,7 @@ Depends:
   firmware-linux-free,
  logrotate,
  net-tools,
- systemd (>= 219-1) | ntp,
+ systemd (>= 219-1),
  pciutils,
  powertop,
  udev,
