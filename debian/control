@@ -41,13 +41,13 @@ Description: Configure GRUB to disable graphics
 
 Package: josh-config-journal
 Architecture: all
-Depends: systemd (>> 218)
+Depends: systemd
 Description: Configure persistent systemd journal
  This package configures the systemd journal as persistent.
 
 Package: josh-config-logind
 Architecture: all
-Depends: systemd (>> 218)
+Depends: systemd
 Description: Configure systemd-logind to not suspend on lid close
  This package configures systemd-logind to lock the screen on lid close, rather
  than suspending.
@@ -76,7 +76,7 @@ Description: Configure PolicyKit to allow group sudo
 
 Package: josh-config-sudoers
 Architecture: all
-Depends: sudo (>= 1.7.4p4-2.squeeze.2), josh-config-path
+Depends: sudo, josh-config-path
 Description: Configure sudo to allow group sudo, and preserve $HOME
  This package configures sudo via an /etc/sudoers.d file, to allow members of
  group sudo to sudo to any user or group without a password, and to preserve
@@ -378,7 +378,7 @@ Depends:
   firmware-linux-free,
  logrotate,
  net-tools,
- systemd (>= 219-1),
+ systemd,
  pciutils,
  powertop,
  udev,
