@@ -363,7 +363,6 @@ Description: SSH server metapackage
 Package: josh-sys
 Architecture: all
 Depends:
- cron,
  cryptsetup,
  grub-pc | grub-efi-amd64,
  ifupdown | network-manager,
