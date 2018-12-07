@@ -243,6 +243,7 @@ Depends:
  git-hub,
  git-svn,
  libtool-bin,
+ meson,
  ninja-build,
  pkg-config,
  python,
