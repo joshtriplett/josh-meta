@@ -321,7 +321,6 @@ Depends:
  mpv,
  pdf-presenter-console,
  pidgin,
-  pidgin-blinklight,
   pidgin-encryption,
  pulseaudio-module-bluetooth,
  pulseaudio,
