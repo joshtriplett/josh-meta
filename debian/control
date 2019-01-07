@@ -15,7 +15,7 @@ Description: Josh Triplett's Debian package repository
 
 Package: josh-backups
 Architecture: all
-Depends: duplicity, python-boto
+Depends: restic
 Description: Configure backups to AWS
  This package configures backups of /home to AWS. After installing, create
  /etc/josh-backups.conf and write the AWS secrets to it.
