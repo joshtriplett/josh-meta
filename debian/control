@@ -22,10 +22,10 @@ Description: Configure backups to AWS
 
 Package: josh-config-apt
 Architecture: all
-Description: Configure apt to not install Recommends
+Description: Configure apt
  This package installs configuration for apt to not install Recommends by
- default, and to not keep automatically installed packages installed based on
- Recommends or Suggests.
+ default, to not keep automatically installed packages installed based on
+ Recommends or Suggests, and to not fetch icons or appstream information.
 
 Package: josh-config-beepless
 Architecture: all

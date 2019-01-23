@@ -1,3 +1,13 @@
 APT::AutoRemove::RecommendsImportant "false";
 APT::AutoRemove::SuggestsImportant "false";
 APT::Install-Recommends "false";
+
+#clear Acquire::IndexTargets::deb::DEP-11;
+#clear Acquire::IndexTargets::deb::DEP-11-icons;
+#clear Acquire::IndexTargets::deb::DEP-11-icons-hidpi;
+#clear Acquire::IndexTargets::deb::DEP-11-icons-large;
+#clear Acquire::IndexTargets::deb::DEP-11-icons-large-hidpi;
+#clear Acquire::IndexTargets::deb::DEP-11-icons-small;
+#clear APT::Update::Post-Invoke-Success;
+#clear DPkg::Post-Invoke;
+#clear DPkg::Pre-Install-Pkgs;
