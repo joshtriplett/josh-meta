@@ -10,4 +10,3 @@ APT::Install-Recommends "false";
 #clear Acquire::IndexTargets::deb::DEP-11-icons-small;
 #clear APT::Update::Post-Invoke-Success;
 #clear DPkg::Post-Invoke;
-#clear DPkg::Pre-Install-Pkgs;
