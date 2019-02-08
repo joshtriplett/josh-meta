@@ -223,6 +223,7 @@ Depends:
  wamerican-huge,
  whois,
  youtube-dl,
+  ffmpeg,
  zip
 Description: Full metapackage
  Depends on a full set of packages
