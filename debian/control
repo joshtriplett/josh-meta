@@ -202,6 +202,7 @@ Depends:
  netpbm,
  nmap,
  optipng,
+ pigz,
  poppler-utils,
  pwgen,
  qemu-kvm | qemu,
