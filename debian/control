@@ -260,6 +260,7 @@ Description: Full development metapackage
 Package: josh-games
 Architecture: all
 Depends:
+ an,
  angband,
  bsdgames,
  crawl,
