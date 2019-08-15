@@ -367,7 +367,7 @@ Description: SSH server metapackage
 Package: josh-sys
 Architecture: all
 Depends:
- cryptsetup,
+ cryptsetup-initramfs,
  grub-pc | grub-efi-amd64,
  ifupdown | network-manager,
   isc-dhcp-client | network-manager,
