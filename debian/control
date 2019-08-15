@@ -186,6 +186,7 @@ Depends:
  dstat,
  enscript,
  fdisk | util-linux (<< 2.29.2-3~),
+ genisoimage,
  gnuplot,
  graphviz,
  groff,
