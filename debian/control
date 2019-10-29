@@ -187,7 +187,7 @@ Depends:
  enscript,
  fdisk | util-linux (<< 2.29.2-3~),
  genisoimage,
- gnuplot,
+ gnuplot-x11,
  graphviz,
  groff,
  html2text,
