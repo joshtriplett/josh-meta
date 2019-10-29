@@ -18,5 +18,6 @@ RESTIC_REPOSITORY=s3:https://s3.amazonaws.com/josh-backup-restic-$(hostname)
 export RESTIC_REPOSITORY
 
 mkdir -p /var/cache/josh-backups
+restic unlock --cache-dir=/var/cache/josh-backups/
 restic backup --cache-dir=/var/cache/josh-backups/ --exclude-caches --exclude='/home/*/.cache' --exclude='/home/*/Downloads' --one-file-system /home
 restic forget --cache-dir=/var/cache/josh-backups/ --prune --keep-daily 30 --keep-monthly 12
