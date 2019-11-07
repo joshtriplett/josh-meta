@@ -1,2 +1,2 @@
-josh.list /etc/apt/sources.list.d/
-josh.gpg /etc/apt/trusted.gpg.d/
+josh.gpg /usr/share/keyrings/
+josh.sources /etc/apt/sources.list.d/
