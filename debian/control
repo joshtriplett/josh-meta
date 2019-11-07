@@ -8,7 +8,7 @@ Standards-Version: 4.2.1
 
 Package: josh-apt-source
 Architecture: all
-Depends: apt (>= 1.5~beta1) | apt-transport-https, ca-certificates
+Depends: ca-certificates
 Description: Josh Triplett's Debian package repository
  This package contains the APT source and archive keyring for Josh Triplett's
  Debian package repository.
