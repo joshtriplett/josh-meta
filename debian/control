@@ -371,7 +371,6 @@ Depends:
  initramfs-tools,
   busybox,
  iproute2,
- iptables,
  iw,
  josh-config-journal,
  libpam-systemd,
@@ -383,8 +382,7 @@ Depends:
  pciutils,
  powertop,
  udev,
- usbutils,
- wireless-tools
+ usbutils
 Description: System metapackage
  Depends on system packages
 
