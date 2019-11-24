@@ -114,7 +114,6 @@ Depends:
  iputils-ping,
  less,
  lsof,
- members,
  moreutils,
  ncurses-term,
  openssh-client,
