@@ -265,13 +265,9 @@ Depends:
  bsdgames,
  crawl,
  gnome-games,
- golly,
  higan,
  nethack-console,
- rrootage,
  sgt-puzzles,
- torus-trooper,
- trackballs,
  xaos
 Description: Games metapackage
  Depends on an interesting selection of games
