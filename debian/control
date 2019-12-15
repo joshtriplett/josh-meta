@@ -370,7 +370,7 @@ Depends:
  iw,
  josh-config-journal,
  libpam-systemd,
- linux-image-686-pae | linux-image-amd64,
+ linux-image-amd64,
   firmware-linux-free,
  logrotate,
  net-tools,
