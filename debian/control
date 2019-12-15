@@ -5,7 +5,7 @@ Maintainer: Josh Triplett <josh@joshtriplett.org>
 Vcs-Git: https://joshtriplett.org/git/josh-meta
 Build-Depends: debhelper-compat (= 12)
 Rules-Requires-Root: no
-Standards-Version: 4.2.1
+Standards-Version: 4.4.1
 
 Package: josh-apt-source
 Architecture: all
