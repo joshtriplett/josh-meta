@@ -31,8 +31,8 @@ Description: Configure apt
 Package: josh-config-beepless
 Architecture: all
 Description: Make your computer stop beeping
- This package blacklists the Linux kernel's pcspkr and snd-pcsp drivers, making
- your computer stop beeping.
+ This package prevents the Linux kernel's pcspkr and snd-pcsp drivers from
+ loading, making your computer stop beeping.
 
 Package: josh-config-grub
 Architecture: all
