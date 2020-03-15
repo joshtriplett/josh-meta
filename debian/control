@@ -371,7 +371,6 @@ Depends:
  libpam-systemd,
  linux-image-amd64,
   firmware-linux-free,
- logrotate,
  net-tools,
  systemd,
  pciutils,
