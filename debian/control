@@ -209,6 +209,7 @@ Depends:
  pwgen,
  qemu-kvm | qemu,
  qemu-utils,
+ qpdf,
  qrencode,
  rename,
  reportbug,
