@@ -246,7 +246,6 @@ Depends:
  g++-multilib,
  gcc-multilib,
  git-hub,
- git-svn,
  libtool-bin,
  meson,
  mingw-w64,
