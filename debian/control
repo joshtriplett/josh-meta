@@ -195,6 +195,7 @@ Depends:
  info,
  libjpeg-progs,
  lm-sensors,
+ lz4,
  man-db,
  manpages,
  mtr-tiny,
@@ -226,7 +227,8 @@ Depends:
  whois,
  youtube-dl,
   ffmpeg,
- zip
+ zip,
+ zstd
 Description: Full metapackage
  Depends on a full set of packages
 
