@@ -269,11 +269,9 @@ Depends:
  angband,
  bsdgames,
  crawl,
- gnome-games,
  higan,
  nethack-console,
  sgt-puzzles,
- xaos
 Description: Games metapackage
  Depends on an interesting selection of games
 
