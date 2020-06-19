@@ -175,6 +175,7 @@ Architecture: all
 Depends:
  josh-core,
  acpica-tools,
+ bsdextrautils | bsdmainutils (<< 12.1.1~),
  catdoc,
  dctrl-tools,
  debian-goodies,
