@@ -175,7 +175,6 @@ Architecture: all
 Depends:
  josh-core,
  acpica-tools,
- asciinema,
  catdoc,
  dctrl-tools,
  debian-goodies,
