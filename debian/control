@@ -254,7 +254,6 @@ Depends:
  ninja-build,
  pkg-config,
  python,
- quilt,
  rustc,
  rust-gdb,
  xsltproc,
