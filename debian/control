@@ -304,7 +304,6 @@ Depends:
  gnome,
   dnsmasq-base,
   gnome-shell-extension-top-icons-plus,
-  network-manager-openconnect-gnome,
  gparted,
  gsfonts-x11,
  gtk2-engines-pixbuf,
