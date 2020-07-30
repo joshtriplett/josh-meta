@@ -293,7 +293,7 @@ Depends:
   auctex,
   elpa-bar-cursor,
   elpa-tabbar,
- firefox,
+ firefox | firefox-esr,
  fonts-crosextra-caladea,
  fonts-crosextra-carlito,
  fonts-dejavu,
