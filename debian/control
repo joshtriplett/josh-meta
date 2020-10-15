@@ -369,7 +369,7 @@ Depends:
  iw,
  josh-config-journal,
  libpam-systemd,
- linux-image-amd64,
+ linux-image-amd64 | linux-image-cloud-amd64,
   firmware-linux-free,
  net-tools,
  systemd,
