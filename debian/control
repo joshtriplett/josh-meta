@@ -117,6 +117,7 @@ Depends:
  lsof,
  moreutils,
  ncurses-term,
+ neovim,
  openssh-client,
  procps,
  psmisc,
@@ -128,7 +129,6 @@ Depends:
  traceroute,
  tree,
  tzdata,
- vim,
  wget
 Conflicts:
  vim-tiny
