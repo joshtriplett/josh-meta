@@ -250,6 +250,7 @@ Depends:
  libgit2-dev,
  libssl-dev,
  libtool-bin,
+ linux-perf,
  meson,
  ninja-build,
  pkg-config,
