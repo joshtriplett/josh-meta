@@ -253,7 +253,7 @@ Depends:
  meson,
  ninja-build,
  pkg-config,
- python,
+ python3,
  rustc,
  rust-gdb,
  xsltproc,
