@@ -256,6 +256,7 @@ Depends:
  python3,
  rustc,
  rust-gdb,
+ wabt,
  xsltproc,
  zlib1g-dev
 Description: Full development metapackage
