@@ -308,6 +308,7 @@ Depends:
  gparted,
  gsfonts-x11,
  gtk2-engines-pixbuf,
+ gucharmap,
  hunspell-en-us,
  inkscape,
  libasound2-plugins,
