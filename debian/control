@@ -156,7 +156,7 @@ Depends:
  gdb,
  glibc-doc,
  libc6-dbg,
- libncurses5-dev,
+ libncurses-dev,
  libtool,
  lintian,
  ltrace,
