@@ -28,6 +28,12 @@ Description: Configure apt
  default, to not keep automatically installed packages installed based on
  Recommends or Suggests, and to not fetch icons or appstream information.
 
+Package: josh-config-apt-listchanges
+Architecture: all
+Depends: apt-listchanges (>> 3.22)
+Description: Configure apt-listchanges
+ This package installs configuration for apt-listchanges.
+
 Package: josh-config-beepless
 Architecture: all
 Description: Make your computer stop beeping
