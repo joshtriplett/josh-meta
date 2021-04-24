@@ -255,8 +255,6 @@ Depends:
  cmake,
  debian-policy,
  flex,
- g++-multilib,
- gcc-multilib,
  git-hub,
  libelf-dev,
  libgit2-dev,
