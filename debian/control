@@ -255,7 +255,6 @@ Depends:
  cmake,
  debian-policy,
  flex,
- git-hub,
  libelf-dev,
  libgit2-dev,
  libssl-dev,
