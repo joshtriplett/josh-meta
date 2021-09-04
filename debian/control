@@ -182,6 +182,7 @@ Depends:
  josh-core,
  acpica-tools,
  attr,
+ awscli,
  bsdextrautils | bsdmainutils (<< 12.1.1~),
  catdoc,
  dctrl-tools,
