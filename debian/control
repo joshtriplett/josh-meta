@@ -183,7 +183,7 @@ Depends:
  acpica-tools,
  attr,
  awscli,
- bsdextrautils | bsdmainutils (<< 12.1.1~),
+ bsdextrautils,
  catdoc,
  dctrl-tools,
  ddcutil,
@@ -196,7 +196,7 @@ Depends:
  enscript,
  extlinux,
   syslinux-common,
- fdisk | util-linux (<< 2.29.2-3~),
+ fdisk,
  genisoimage,
  gnuplot-x11 | gnuplot,
  graphviz,
@@ -410,6 +410,5 @@ Depends:
  texlive-pstricks,
  texlive-publishers,
  texlive-science,
- texlive-science (>= 2017.20170629-1) | texlive-math-extra
 Description: TeX metapackage
  Depends on TeX packages
