@@ -215,6 +215,7 @@ Depends:
  netpbm,
  nmap,
  optipng,
+ offlineimap3,
  pigz,
  poppler-utils,
  pwgen,
