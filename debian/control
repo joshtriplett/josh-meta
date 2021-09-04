@@ -228,6 +228,7 @@ Depends:
  rlfe,
  scowl,
  socat,
+ sqlite3,
  sshfs,
  tcpdump,
  tftp,
