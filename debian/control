@@ -263,6 +263,8 @@ Depends:
  libtool-bin,
  linux-perf,
  meson,
+ musl-tools,
+ nasm,
  ninja-build,
  pkg-config,
  python3,
