@@ -384,9 +384,10 @@ Depends:
  linux-image-amd64 | linux-image-cloud-amd64,
   firmware-linux-free,
  net-tools,
- systemd,
  pciutils,
  powertop,
+ systemd,
+ systemd-timesyncd,
  udev,
  usbutils
 Description: System metapackage
