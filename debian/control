@@ -315,7 +315,6 @@ Depends:
  gitk,
  gnome,
   dnsmasq-base,
-  gnome-shell-extension-top-icons-plus,
  gparted,
  gsfonts-x11,
  gtk2-engines-pixbuf,
