@@ -64,7 +64,8 @@ Architecture: all
 Depends:
  mobile-broadband-provider-info,
  modemmanager,
- network-manager
+ network-manager,
+ wpasupplicant
 Conflicts: ifupdown
 Description: Configure NetworkManager
  This package configures NetworkManager to disable the ifupdown plugin.
