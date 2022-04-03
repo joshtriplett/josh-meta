@@ -398,7 +398,6 @@ Architecture: all
 Depends:
  texlive,
  texlive-bibtex-extra,
- texlive-generic-recommended,
  texlive-latex-extra,
  texlive-latex-recommended,
  texlive-latex-recommended-doc,
