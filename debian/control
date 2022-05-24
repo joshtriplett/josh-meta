@@ -336,7 +336,6 @@ Depends:
  pulseaudio,
  qemu-system-gui,
  quodlibet,
- transmission-gtk,
  xdg-utils,
  xorg,
  xsel
