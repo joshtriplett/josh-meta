@@ -279,9 +279,9 @@ Architecture: all
 Depends:
  an,
  angband,
+ ares,
  bsdgames,
  crawl,
- higan,
  nethack-console,
  sgt-puzzles,
 Description: Games metapackage
