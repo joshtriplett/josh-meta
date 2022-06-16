@@ -13,7 +13,7 @@ test -d debian || die Could not find debian directory
 pkg="$(basename $(pwd))"
 author="$(git log -1 --pretty='%aN <%aE>')"
 date="$(git log -1 --pretty='%aD')"
-year="$(git log -1 --date=short --pretty='%ad' | cut -d- -f1)"
+year="$(git log -1 --date='format:%Y' --pretty='%ad')"
 version="$(git rev-list HEAD --count)"
 
 target=target
