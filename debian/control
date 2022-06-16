@@ -275,18 +275,6 @@ Depends:
 Description: Full development metapackage
  Depends on a full set of development packages
 
-Package: josh-games
-Architecture: all
-Depends:
- angband,
- ares,
- bsdgames,
- crawl,
- nethack-console,
- sgt-puzzles,
-Description: Games metapackage
- Depends on an interesting selection of games
-
 Package: josh-gui
 Architecture: all
 Depends:
