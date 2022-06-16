@@ -10,7 +10,7 @@ cd $(dirname $0)
 test -d .git || die Could not find git repository
 test -d debian || die Could not find debian directory
 
-pkg="$(basename $(pwd))"
+pkg="$(grep '^Source:' debian/control | cut -d' ' -f2)"
 author="$(git log -1 --pretty='%aN <%aE>')"
 date="$(git log -1 --pretty='%aD')"
 year="$(git log -1 --date='format:%Y' --pretty='%ad')"
