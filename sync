@@ -14,4 +14,5 @@ cd target/archive
 git init .
 git add .
 git commit -am 'Compiled Debian archive'
-git push -f git@github.com:joshtriplett/deb.joshtriplett.org HEAD:main
+git push --delete git@github.com:joshtriplett/deb.joshtriplett.org gh-pages || true
+git push git@github.com:joshtriplett/deb.joshtriplett.org HEAD:gh-pages
