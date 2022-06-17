@@ -36,4 +36,12 @@ mkdir -p target/archive/{pool/main,dists/unstable/main/binary-{amd64,arm64}}
 ln -s unstable target/archive/dists/sid
 mv target/*.deb target/archive/pool/main/
 apt-ftparchive -c apt-ftparchive/apt.conf generate apt-ftparchive/archive.conf
-apt-ftparchive -c apt-ftparchive/apt.conf release target/archive/ | gpg --clear-sign > target/archive/dists/unstable/InRelease
+
+pushd target/archive/dists/unstable
+apt-ftparchive -c ../../../../apt-ftparchive/apt.conf release . | gpg --clear-sign > InRelease
+popd
+
+cd target/archive
+test -f pool/main/josh-apt-source_*_all.deb || die "Could not find josh-apt-source for symlink"
+ln -s pool/main/josh-apt-source_*_all.deb index.html
+echo -n "deb.joshtriplett.org" > CNAME

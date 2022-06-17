@@ -11,7 +11,7 @@ test -d .git || die "Could not find git repository"
 test -f target/archive/dists/unstable/InRelease || die "Could not find archive InRelease file, build first"
 
 cd target/archive
-git init --initial-branch debian-archive .
+git init .
 git add .
 git commit -am 'Compiled Debian archive'
-git push -f git@github.com:joshtriplett/josh-meta debian-archive
+git push -f git@github.com:joshtriplett/deb.joshtriplett.org HEAD:main
