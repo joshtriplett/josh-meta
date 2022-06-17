@@ -32,7 +32,7 @@ EOF
 debuild -b
 
 popd
-mkdir -p target/archive/pool/main target/archive/dists/unstable/main/binary-amd64 target/archive/dists/unstable/main/binary-arm64
+mkdir -p target/archive/{pool/main,dists/unstable/main/binary-{amd64,arm64}}
 mv target/*.deb target/archive/pool/main/
 apt-ftparchive -c apt-ftparchive/apt.conf generate apt-ftparchive/archive.conf
 apt-ftparchive -c apt-ftparchive/apt.conf release target/archive/ | gpg --clear-sign > target/archive/dists/unstable/InRelease
