@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 set -e
 
 die() {
@@ -20,7 +20,7 @@ target=target
 rm -rf "$target"
 mkdir "$target"
 git archive --prefix="$pkg-$version/" HEAD | tar -x -C "$target"
-cd "$target/$pkg-$version"
+pushd "$target/$pkg-$version"
 
 cat > debian/changelog <<EOF
 $pkg ($version) unstable; urgency=low
@@ -31,3 +31,9 @@ $pkg ($version) unstable; urgency=low
 EOF
 { echo "Copyright $year $author" ; cat debian/copyright.trailer ; } > debian/copyright
 debuild -b
+
+popd
+mkdir -p "$target/archive/pool/main" "$target/archive/dists/unstable/main/binary-amd64" "$target/archive/dists/unstable/main/binary-arm64"
+mv "$target"/*.deb "$target"/archive/pool/main/
+apt-ftparchive -c apt-ftparchive/apt.conf generate apt-ftparchive/archive.conf
+apt-ftparchive -c apt-ftparchive/apt.conf release "$target"/archive/ | gpg --clear-sign > "$target"/archive/dists/unstable/InRelease
