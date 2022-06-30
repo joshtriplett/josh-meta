@@ -157,7 +157,6 @@ Depends:
   libwww-perl,
  dh-make,
  diffstat,
- dput,
  equivs,
  fakeroot,
  gdb,
