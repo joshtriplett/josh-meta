@@ -40,6 +40,12 @@ Description: Make your computer stop beeping
  This package prevents the Linux kernel's pcspkr and snd-pcsp drivers from
  loading, making your computer stop beeping.
 
+Package: josh-config-disable-services
+Architecture: all
+Description: Mask various unwanted system services
+ This package masks various unwanted services by installing symlinks to
+ /dev/null.
+
 Package: josh-config-grub
 Architecture: all
 Description: Configure GRUB to disable graphics
