@@ -321,6 +321,7 @@ Depends:
  libpam-gnome-keyring,
  libreoffice,
   libreoffice-gnome,
+  libreoffice-gtk3,
  libsane-hpaio,
  mesa-utils,
  mpv,
