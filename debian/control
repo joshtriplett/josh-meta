@@ -244,7 +244,7 @@ Depends:
  wamerican-huge,
  whois,
  xorriso,
- youtube-dl,
+ yt-dlp | youtube-dl,
   ffmpeg,
  zip,
  zstd
