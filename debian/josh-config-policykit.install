@@ -1,1 +1,1 @@
-josh-config-policykit.pkla /var/lib/polkit-1/localauthority/20-org.d/
+01-josh-config-policykit.rules /usr/share/polkit-1/rules.d/

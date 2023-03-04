@@ -83,7 +83,7 @@ Description: Configure the default $PATH to include sbin directories
 
 Package: josh-config-policykit
 Architecture: all
-Depends: policykit-1
+Depends: polkitd
 Description: Configure PolicyKit to allow group sudo
  This package configures PolicyKit to automatically authorize members of group
  sudo when logged in.
