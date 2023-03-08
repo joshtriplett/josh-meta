@@ -9,10 +9,11 @@ die() {
 cd $(dirname $0)
 test -d .git || die "Could not find git repository"
 test -f target/archive/dists/unstable/InRelease || die "Could not find archive InRelease file, build first"
+mkdir -p target/archive/.github/workflows/
+cp actions.yml target/archive/.github/workflows/static.yml
 
 cd target/archive
 git init .
 git add .
 git commit -am 'Compiled Debian archive'
-git push --delete git@github.com:joshtriplett/deb.joshtriplett.org gh-pages || true
-git push git@github.com:joshtriplett/deb.joshtriplett.org HEAD:gh-pages
+git push -f git@github.com:joshtriplett/deb.joshtriplett.org HEAD:main
