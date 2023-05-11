@@ -334,6 +334,7 @@ Depends:
  pipewire-audio | pulseaudio,
  qemu-system-gui,
  quodlibet,
+ sm,
  xdg-utils,
  xorg,
  xsel
