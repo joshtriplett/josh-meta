@@ -387,7 +387,8 @@ Depends:
  systemd,
  systemd-timesyncd,
  udev,
- usbutils
+ usbutils,
+ zstd
 Description: System metapackage
  Depends on system packages
 
