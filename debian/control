@@ -190,6 +190,7 @@ Depends:
  an,
  attr,
  awscli,
+ b3sum,
  bsdextrautils,
  catdoc,
  dctrl-tools,
