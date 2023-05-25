@@ -265,6 +265,7 @@ Depends:
  bison,
  cargo,
  cmake,
+ crossbuild-essential-arm64,
  debian-policy,
  flex,
  gh,
