@@ -262,6 +262,7 @@ Architecture: all
 Depends:
  josh-dev,
  autogen,
+ binutils-multiarch,
  bison,
  cargo,
  cmake,
