@@ -98,6 +98,12 @@ Description: Configure sudo to allow group sudo, and preserve $HOME
  .
  For this package to work, /etc/sudoers must "#includedir /etc/sudoers.d".
 
+Package: josh-config-tpacpi-power
+Architecture: all
+Description: Turn off ThinkPad power LED on startup
+ This package installs a udev rule to turn off the ThinkPad power LED on
+ startup.
+
 Package: josh-avahi
 Architecture: all
 Depends:
