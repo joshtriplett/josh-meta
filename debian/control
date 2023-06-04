@@ -338,7 +338,6 @@ Depends:
  mesa-utils,
  mpv,
  pdf-presenter-console,
- pidgin,
  pipewire-audio | pulseaudio-module-bluetooth,
  pipewire-audio | pulseaudio,
  qemu-system-gui,
