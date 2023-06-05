@@ -343,8 +343,10 @@ Depends:
  qemu-system-gui,
  quodlibet,
  sm,
+ x11-utils,
+ xauth,
  xdg-utils,
- xorg,
+ xfonts-scalable,
  xsel
 Description: GUI metapackage
  Depends on GUI packages
