@@ -247,7 +247,7 @@ Depends:
  sqlite3,
  sshfs,
  tcpdump,
- tftp,
+ tftp-hpa,
  tofrodos,
  tsocks,
  unhtml,
