@@ -379,6 +379,7 @@ Description: SSH server metapackage
 Package: josh-sys
 Architecture: all
 Depends:
+ bolt,
  cryptsetup-initramfs,
  grub-pc | grub-efi-amd64,
  ifupdown | network-manager,
