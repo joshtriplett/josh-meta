@@ -270,7 +270,6 @@ Depends:
  autogen,
  binutils-multiarch,
  bison,
- cargo,
  cmake,
  crossbuild-essential-arm64,
  debian-policy,
@@ -287,8 +286,7 @@ Depends:
  ninja-build,
  pkg-config,
  python3,
- rustc,
- rust-gdb,
+ rustup,
  wabt,
  xsltproc,
  zlib1g-dev
