@@ -217,6 +217,7 @@ Depends:
  html2text,
  hyperfine,
  info,
+ libinput-tools,
  libjpeg-progs,
  lm-sensors,
  lz4,
