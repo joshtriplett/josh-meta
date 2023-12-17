@@ -1,2 +1,2 @@
-systemd-service-file-missing-documentation-key [lib/systemd/system/josh-backups.service]
+systemd-service-file-missing-documentation-key [usr/lib/systemd/system/josh-backups.service]
 no-manual-page [usr/bin/josh-backups]
