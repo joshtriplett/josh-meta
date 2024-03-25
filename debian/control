@@ -286,7 +286,7 @@ Depends:
  musl-tools,
  nasm,
  ninja-build,
- pkg-config,
+ pkgconf,
  python3,
  rustup,
  wabt,
