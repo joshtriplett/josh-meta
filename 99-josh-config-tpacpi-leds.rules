@@ -1,0 +1,6 @@
+ACTION=="remove", GOTO="josh_tpacpi_leds_end"
+
+SUBSYSTEM=="leds", KERNEL=="tpacpi::power", ATTR{brightness}="0"
+SUBSYSTEM=="leds", KERNEL=="tpacpi::lid_logo_dot", ATTR{brightness}="0"
+
+LABEL="josh_tpacpi_leds_end"

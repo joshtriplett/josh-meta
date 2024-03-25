@@ -1,5 +1,0 @@
-ACTION=="remove", GOTO="josh_tpacpi_power_end"
-
-SUBSYSTEM=="leds", KERNEL=="tpacpi::power", ATTR{brightness}="0"
-
-LABEL="josh_tpacpi_power_end"
