@@ -392,6 +392,7 @@ Depends:
  libpam-systemd,
  linux-image-amd64 | linux-image-cloud-amd64,
   firmware-linux-free,
+ linux-sysctl-defaults | systemd (<< 256.2-1),
  net-tools,
  pciutils,
  powertop,
