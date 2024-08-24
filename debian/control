@@ -103,15 +103,6 @@ Architecture: all
 Description: Turn off ThinkPad LEDs on startup
  This package installs a udev rule to turn off ThinkPad LEDs on startup.
 
-Package: josh-avahi
-Architecture: all
-Depends:
- avahi-daemon,
- avahi-utils,
- libnss-mdns
-Description: Avahi metapackage
- Depends on Avahi packages
-
 Package: josh-core
 Architecture: all
 Depends:
@@ -301,6 +292,7 @@ Depends:
  alsa-utils,
  aspell-en,
  audacity,
+ avahi-utils,
  cups,
   cups-bsd,
   cups-client,
@@ -330,6 +322,7 @@ Depends:
  inkscape,
  libasound2-plugins,
  libgl1-mesa-dri,
+ libnss-mdns,
  libpam-gnome-keyring,
  libreoffice,
   libreoffice-gnome,
