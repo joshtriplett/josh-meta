@@ -361,6 +361,13 @@ Depends:
 Description: ikiwiki metapackage
  Depends on ikiwiki and supporting packages.
 
+Package: josh-provides
+Architecture: all
+Provides: gnome-remote-desktop (= 1000:1)
+Description: Provides no-op stubs to satisfy unwanted dependencies
+ This package supplies Provides for various unwanted packages, to satisfy
+ dependencies on those packages.
+
 Package: josh-ssh-server
 Architecture: all
 Depends:
