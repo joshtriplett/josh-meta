@@ -306,6 +306,7 @@ Depends:
  fonts-crosextra-caladea,
  fonts-crosextra-carlito,
  fonts-dejavu,
+ fonts-inter-variable,
  fonts-ipafont,
  fonts-liberation2,
  fonts-noto-color-emoji,
