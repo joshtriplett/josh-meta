@@ -388,7 +388,10 @@ Architecture: all
 Depends:
  bolt,
  cryptsetup-initramfs,
- grub-pc | grub-efi-amd64,
+ efibootmgr,
+ fwupd,
+  fwupd-amd64-signed,
+ grub-efi-amd64 | grub-pc,
  ifupdown | network-manager,
   isc-dhcp-client | network-manager,
  initramfs-tools,
