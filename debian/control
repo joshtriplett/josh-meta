@@ -416,6 +416,7 @@ Architecture: all
 Depends:
  texlive,
  texlive-bibtex-extra,
+ texlive-binaries-sse2,
  texlive-latex-extra,
  texlive-latex-recommended,
  texlive-latex-recommended-doc,
