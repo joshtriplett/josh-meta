@@ -341,6 +341,7 @@ Depends:
  pipewire-audio,
  qemu-system-gui,
  quodlibet,
+ rtkit,
  sm,
  wl-clipboard,
  x11-utils,
