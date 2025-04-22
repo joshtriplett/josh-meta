@@ -269,6 +269,7 @@ Depends:
  debian-policy,
  flex,
  gh,
+ just,
  libelf-dev,
  libgit2-dev,
  libssl-dev,
