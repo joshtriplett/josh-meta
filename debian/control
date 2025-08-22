@@ -216,7 +216,7 @@ Depends:
  manpages,
  mmdebstrap,
   arch-test,
-  qemu-user-static,
+  qemu-user-binfmt | qemu-user-static,
  mtr-tiny,
  mutt,
  netcat-openbsd,
