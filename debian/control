@@ -195,7 +195,6 @@ Depends:
  dict,
  dmidecode,
  dosfstools,
- dstat,
  enscript,
  extlinux,
   syslinux-common,
