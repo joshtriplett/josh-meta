@@ -392,6 +392,7 @@ Depends:
  iproute2,
  iw,
  josh-config-journal,
+ libnss-systemd,
  libpam-systemd,
  linux-image-amd64 | linux-image-cloud-amd64,
   firmware-linux-free,
