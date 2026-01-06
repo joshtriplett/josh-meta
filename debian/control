@@ -228,7 +228,7 @@ Depends:
  qemu-system-arm,
   qemu-efi-aarch64,
  qemu-system-x86,
-  ovmf,
+  ovmf-generic | ovmf,
  qemu-utils,
  qpdf,
  qrencode,
