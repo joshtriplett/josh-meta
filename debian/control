@@ -71,6 +71,7 @@ Depends:
  mobile-broadband-provider-info,
  modemmanager,
  network-manager,
+ network-manager-tui | network-manager (<< 1.56.0-4),
  wpasupplicant
 Conflicts: ifupdown
 Description: Configure NetworkManager
