@@ -344,6 +344,7 @@ Depends:
  quodlibet,
  rtkit,
  sm,
+ wayland-utils,
  wl-clipboard,
  x11-utils,
  xauth,
