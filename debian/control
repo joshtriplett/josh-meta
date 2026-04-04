@@ -223,6 +223,8 @@ Depends:
  netpbm,
  nmap,
  offlineimap3,
+ pass,
+  pass-otp,
  pigz,
  poppler-utils,
  pwgen,
@@ -252,6 +254,7 @@ Depends:
  xorriso,
  yt-dlp | youtube-dl,
   ffmpeg,
+ zbar-tools,
  zip,
  zstd
 Description: Full metapackage
