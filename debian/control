@@ -252,6 +252,7 @@ Depends:
  wamerican-huge,
  whois,
  xorriso,
+ xxd,
  yt-dlp | youtube-dl,
   ffmpeg,
  zbar-tools,
