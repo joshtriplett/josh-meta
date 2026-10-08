@@ -162,7 +162,6 @@ Depends:
  equivs,
  fakeroot,
  gdb,
- glibc-doc,
  libc6-dbg,
  libncurses-dev,
  libtool,
