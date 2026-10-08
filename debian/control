@@ -155,7 +155,6 @@ Depends:
  colordiff,
  debhelper,
  devscripts,
-  libparse-debcontrol-perl,
   libsoap-lite-perl,
   libwww-perl,
  dh-make,
