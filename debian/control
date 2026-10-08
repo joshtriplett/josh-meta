@@ -326,7 +326,6 @@ Depends:
   dnsmasq-base,
  gnome-terminal,
  gparted,
- gtk2-engines-pixbuf,
  gucharmap,
  hunspell-en-us,
  inkscape,
