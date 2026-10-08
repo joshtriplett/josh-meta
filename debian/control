@@ -303,7 +303,6 @@ Depends:
   cups-bsd,
   cups-client,
   foomatic-db-compressed-ppds,
-  foomatic-db-engine,
   ghostscript-cups,
   printer-driver-escpr,
   printer-driver-hpcups,
