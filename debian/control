@@ -314,7 +314,7 @@ Depends:
  fonts-dejavu,
  fonts-inter-variable,
  fonts-ipafont,
- fonts-liberation2,
+ fonts-liberation,
  fonts-noto-color-emoji,
  fonts-urw-base35,
  fonts-vlgothic,
