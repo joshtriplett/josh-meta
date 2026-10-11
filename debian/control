@@ -122,7 +122,6 @@ Depends:
  git,
  gnupg,
  htop,
- inetutils-telnet,
  iputils-ping,
  less,
  lsof,
