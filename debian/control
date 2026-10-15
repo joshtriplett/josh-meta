@@ -151,7 +151,6 @@ Depends:
  automake,
  build-essential,
  ccache,
- colordiff,
  debhelper,
  devscripts,
   libsoap-lite-perl,
