@@ -3,6 +3,7 @@ Description=Daily backups
 
 [Timer]
 OnCalendar=*-*-* 3:00
+Persistent=true
 
 [Install]
 WantedBy=timers.target
