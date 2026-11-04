@@ -89,6 +89,11 @@ Description: Configure PolicyKit to allow group sudo
  This package configures PolicyKit to automatically authorize members of group
  sudo when logged in.
 
+Package: josh-config-sysctl
+Architecture: all
+Description: Configure sysctl values
+ This package configures various sysctl values for hardening.
+
 Package: josh-config-sudoers
 Architecture: all
 Depends: sudo, josh-config-path
