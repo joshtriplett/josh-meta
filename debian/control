@@ -92,7 +92,7 @@ Description: Configure PolicyKit to allow group sudo
 Package: josh-config-sysctl
 Architecture: all
 Description: Configure sysctl values
- This package configures various sysctl values for hardening.
+ This package configures various sysctl values, primarily for hardening.
 
 Package: josh-config-sudoers
 Architecture: all
