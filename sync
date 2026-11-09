@@ -13,7 +13,7 @@ mkdir -p target/archive/.github/workflows/
 cp actions.yml target/archive/.github/workflows/static.yml
 
 cd target/archive
-git init .
+test -d .git || git init .
 git add .
-git commit -am 'Compiled Debian archive'
+git diff --cached --quiet || git commit -am 'Compiled Debian archive'
 git push -f git@github.com:joshtriplett/deb.joshtriplett.org HEAD:main
