@@ -1,1 +1,1 @@
-josh-config-sysctl.conf /etc/sysctl.d/99josh-config-sysctl.conf
+99-josh-config-sysctl.conf /etc/sysctl.d/
