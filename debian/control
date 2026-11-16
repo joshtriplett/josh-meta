@@ -324,7 +324,6 @@ Depends:
  gitk,
  gnome,
   dnsmasq-base,
- gnome-terminal,
  gparted,
  gucharmap,
  hunspell-en-us,
