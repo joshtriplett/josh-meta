@@ -317,6 +317,7 @@ Depends:
  fonts-inter-variable,
  fonts-ipafont,
  fonts-liberation,
+ fonts-liberation-sans-narrow,
  fonts-noto-color-emoji,
  fonts-urw-base35,
  fonts-vlgothic,
