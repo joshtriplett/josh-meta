@@ -300,7 +300,6 @@ Depends:
  alsa-ucm-conf,
  alsa-utils,
  aspell-en,
- audacity,
  avahi-utils,
  cups,
   cups-bsd,
