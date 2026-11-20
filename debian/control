@@ -361,23 +361,6 @@ Depends:
 Description: GUI metapackage
  Depends on GUI packages
 
-Package: josh-ikiwiki
-Architecture: all
-Depends:
- ikiwiki,
- gcc,
- libauthen-passphrase-perl,
- libc6-dev,
- libcgi-formbuilder-perl,
- libcgi-session-perl,
- libfile-mimeinfo-perl,
- libimage-magick-perl,
- libtext-csv-perl,
- libtimedate-perl,
- libxml-feed-perl
-Description: ikiwiki metapackage
- Depends on ikiwiki and supporting packages.
-
 Package: josh-ssh-server
 Architecture: all
 Depends:
