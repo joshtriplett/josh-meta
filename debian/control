@@ -207,7 +207,7 @@ Depends:
  html2text,
  hyperfine,
  info,
- iperf3,
+ iperf3-client | iperf3,
  libinput-tools,
  libjpeg-progs,
  lm-sensors,
