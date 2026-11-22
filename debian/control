@@ -223,6 +223,7 @@ Depends:
  netpbm,
  nmap,
  offlineimap3,
+ oxipng,
  pass,
   pass-otp,
  pigz,
