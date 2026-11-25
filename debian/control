@@ -299,7 +299,6 @@ Depends:
  alsa-topology-conf,
  alsa-ucm-conf,
  alsa-utils,
- aspell-en,
  avahi-utils,
  cups,
   cups-bsd,
